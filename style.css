@@ -1,0 +1,27 @@
+
+body {
+	background-color: #000;  /* Changed to black */
+	font-family: Arial, sans-serif;
+	margin: 20px;
+	padding: 20px;
+	color: #fff;  /* Added text color */
+}
+
+h1 {
+	color: #06c;  /* Changed heading color */
+}
+
+p {
+	margin-bottom: 20px;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	color: #eee;  /* Changed paragraph color */
+}
+
+p:first-child {
+	background-color: #333;  /* Changed first paragraph background */
+}
+
+p:last-child {
+	border-bottom: none;
+}
